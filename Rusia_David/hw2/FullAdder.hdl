@@ -33,4 +33,3 @@ CHIP FullAdder {
     Nand(a=carry2 , b=carry2 , out=NAND10);
     Nand(a=NAND9 , b=NAND10 , out=carry);
 
-}
